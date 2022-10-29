@@ -1,7 +1,7 @@
 # Proyecto_Fnial_Team_Champana
 
 Integrantes:
-- .
+- . Nicolás Vargas Wilches 
 - .
 - .
 
