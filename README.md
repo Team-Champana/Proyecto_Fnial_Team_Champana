@@ -3,7 +3,7 @@
 Integrantes:
 - Nicolás Vargas Wilches. 
 - Cesar Augusto Pérez González.
-- .
+- Juan Esteban Pinilla
 
 ______________________________
 1)
