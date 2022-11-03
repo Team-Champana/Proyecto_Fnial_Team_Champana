@@ -4,6 +4,7 @@ Integrantes:
 - Nicolás Vargas Wilches. 
 - Cesar Augusto Pérez González.
 - Juan Esteban Pinilla
+- Pinilla es gei :D
 
 ______________________________
 1)
