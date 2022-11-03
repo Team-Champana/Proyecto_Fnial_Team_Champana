@@ -9,7 +9,6 @@ ______________________________
 1)
 sintesis
 
-
 (Oficina)
 - montaje
 Para el montaje en el area de oficinas, se utilizaron los siguientes elementos.
@@ -38,6 +37,7 @@ Luego se configuraron las IPs por DHCP de los demás dispositivos, como el PC, e
 Configuración del Router.
 Se habilitan los puertos del rauter 0/0(enlace fuera del area oficina), 0/1.5 y 0/1.200 (enlace que conecta al MLSW con su respectiva direccioón IP [192.168.207.100  255.255.255.0]). Luego se configuran
 Esta configuración del Router se puede evidenciar en la siguiente imagen.
+
 ![image](https://user-images.githubusercontent.com/110790300/199743508-baba5e1b-6efb-41e5-a0c3-03e6036ba56d.png)
 
 Configuración del MLSW (Multilayer Switch)
@@ -48,6 +48,7 @@ Creamos la Vlan 5, 200 y luego habilitamos todos los puertos que conectal al MLS
 1/0/4 (enlace de acceso Vlan200 al PC Administrador).
 1/0/5 (enlace truncal al Servidor DHCP).
 Esta configuración del MLSW se puede evidenciar en la siguiente imagen.
+
 ![image](https://user-images.githubusercontent.com/110790300/199749979-66592017-53a7-4e83-8859-3cee40734767.png)
 
 Configuración IPs por DHCP
@@ -59,26 +60,35 @@ de esta forma automaticamente el PC Administrador y el AP, quedan asignados a un
 Configuración del WLC desde el PC.
 Al hacar la dirección DHCP, se hace un ping para verificar si estan conectados los dos.
 luego pasamos a la busqeda web, ponemos la ip del WLC para ingresar y crear una cuenta de administrador como se muestra en la imagen.
+
 ![image](https://user-images.githubusercontent.com/110790300/199758325-ed2f7b15-8798-45fd-b68d-2b3b49d761bc.png)
 ![image](https://user-images.githubusercontent.com/110790300/199758517-81145435-5fd6-471b-a5ad-14b29fc97872.png)
 ![image](https://user-images.githubusercontent.com/110790300/199758664-7c1ce8fe-95b3-4c99-a7dd-350a375b6bdf.png)
 
-dentro del progrma crear el acceso de las Vlans con su respectiva seguridad para que el Wireless funcione.
+Dentro del progrma crear el acceso de las Vlans con su respectiva seguridad para que el Wireless funcione.
+Luego cada dispositivo lo conectamos por wireless como se muestra en la imagen.
 
+![image](https://user-images.githubusercontent.com/110790300/199760328-7139e555-2980-4c69-a0f2-2d48ca682277.png)
 
-- verificación
+Ahora los dispositivos estan listos para entrar a la pagina web.
 
 2)
 Resultados
 - configuración.
+  
 - verificación.
 
 3)
 Sección de Resultados y Análisis
 
 4)
-Concluaionwa, recomendaciones.
+Concluciones, 
+
+recomendaciones.
+para la parte de oficinas se recomienda tener presente las direcciones DHCP como prioridad, para lograr la conectividad por wireless y lograr el ping con el WLC para crear la red WLAN.
 ____________________________
 
 Referencias.
+
+https://youtu.be/AawECCXioFI.
 
