@@ -7,7 +7,7 @@ Integrantes:
 
 ______________________________
 1)
-sintesia
+sintesis
 
 
 (Oficina)
@@ -28,7 +28,12 @@ Se hace la conección que enlaza los elemntos. la mayoria son por cable de cobre
 - configuración
 La configuración se realizó del siguiente modo. 
 
-1. se configuraron las IPs fijas de cada elemento, primero la del Servidor DHCP, luego la del WLC y el MLSW. Luego se configuraron las IPs por DHCP de los demás dispositivos, como el PC, el AP, las laptops, la tablet y el celular.
+1. se configuraron las IPs fijas de cada elemento, acorde a la (Tabla 3. Tabla de direccionamiento red WLAN “Oficinas”) presentada en el proyecto.
+- primero la del Servidor DHCP (requiere IP, la IP del DNS).
+- luego la del WLC (requiere IP, mascara de subred, el gate way y la IP del DNS).
+- el MLSW. (DHCP)
+
+Luego se configuraron las IPs por DHCP de los demás dispositivos, como el PC, el AP, las laptops, la tablet y el celular.
 
 Configuración del Router.
 Se habilitan los puertos del rauter 0/0(enlace fuera del area oficina), 0/1.5 y 0/1.200 (enlace que conecta al MLSW con su respectiva direccioón IP [192.168.207.100  255.255.255.0]). Luego se configuran
@@ -45,6 +50,20 @@ Creamos la Vlan 5, 200 y luego habilitamos todos los puertos que conectal al MLS
 Esta configuración del MLSW se puede evidenciar en la siguiente imagen.
 ![image](https://user-images.githubusercontent.com/110790300/199749979-66592017-53a7-4e83-8859-3cee40734767.png)
 
+Configuración IPs por DHCP
+Utilizamos el servicio del servidor DHCP
+requiere de la creación de un server pool, el gateway, el DNS, el inicio de IPs, mascara de subred(tipo c), numero max de usuarios y por ultimo la dirección del WLC.
+con estos requerimientos los guardamos y prendemos el servicio. 
+de esta forma automaticamente el PC Administrador y el AP, quedan asignados a una IP DHCP, de ingual forma se asigna una Dirección IP a los usuarios conectados por Wireless del AP.
+
+Configuración del WLC desde el PC.
+Al hacar la dirección DHCP, se hace un ping para verificar si estan conectados los dos.
+luego pasamos a la busqeda web, ponemos la ip del WLC para ingresar y crear una cuenta de administrador como se muestra en la imagen.
+![image](https://user-images.githubusercontent.com/110790300/199758325-ed2f7b15-8798-45fd-b68d-2b3b49d761bc.png)
+![image](https://user-images.githubusercontent.com/110790300/199758517-81145435-5fd6-471b-a5ad-14b29fc97872.png)
+![image](https://user-images.githubusercontent.com/110790300/199758664-7c1ce8fe-95b3-4c99-a7dd-350a375b6bdf.png)
+
+dentro del progrma crear el acceso de las Vlans con su respectiva seguridad para que el Wireless funcione.
 
 
 - verificación
@@ -62,3 +81,4 @@ Concluaionwa, recomendaciones.
 ____________________________
 
 Referencias.
+
