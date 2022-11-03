@@ -22,7 +22,7 @@ Para el montaje en el area de oficinas, se utilizaron los siguientes elementos.
 1) Smartphone.
 1) Tablet.
 
-Se hace la conección que enlaza los elemntos. la mayoria son por cable de cobre directo a escepción de los dispositivos conectados por wireless.
+Se hace la conexión que enlaza los elemntos. La mayoria son por cable de cobre directo a escepción de los dispositivos conectados por wireless.
 
 - configuración
 La configuración se realizó del siguiente modo. 
@@ -71,6 +71,25 @@ Luego cada dispositivo lo conectamos por wireless como se muestra en la imagen.
 ![image](https://user-images.githubusercontent.com/110790300/199760328-7139e555-2980-4c69-a0f2-2d48ca682277.png)
 
 Ahora los dispositivos estan listos para entrar a la pagina web.
+
+(Mi Casa Inteligente)
+-MONTAJE-
+Para el montaje en la casa inteligente, se utilizaron los siguientes elementos:
+1) Smartphone
+1) PC de mesa genérico
+1) Laptop
+7) Dispositivos IoT (lámpara, ventilador, webcam, cafetera, puerta, ventana, puerta de garaje)
+1) Home Gateway
+1) Cable Modem PT
+1) Cloud PT
+1) Router 2811 (ISP)
+
+Se hace la conexión que enlaza los elemntos. La mayoria son por wireless, a excepción del PC de mesa que se conecta por copper cable.
+
+-CONFIGURACIÓN-
+La configuración se realizó del siguiente modo. 
+
+1. Se configura el Home Gateway con la IP que se nos provee para ello en la Tabla 2 del documento del Proyecto Final
 
 2)
 Resultados
