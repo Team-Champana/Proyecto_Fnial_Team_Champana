@@ -96,25 +96,33 @@ La configuración se realizó del siguiente modo.
 2. Configuramos todos los dispositivos que deben de estar conectados al Home Gateway, esto teniendo en cuenta que su protocolo Gateway/DNS va a ser con DHCP.
 
 Indicamos su SSID como HomeGateway
+
 ![image](https://user-images.githubusercontent.com/98667419/199793439-7bc9f798-6298-4aa7-a93d-2247ff475077.png)
 
 Usamos protocolo DHCP
+
 ![image](https://user-images.githubusercontent.com/98667419/199793506-3ecff07a-8df0-4340-9674-d38e44e3642d.png)
+
+También es necesario que se ubique el Home Gateway como IoT server para que los dispositivos vinculados a el puedan modificar las acciones que hacen cada uno de los aparatos.
 
 3. Realizamos una configuración en el cableado del Cloud-PT
 
 El Ethernet lo configuramos como Cable
+
 ![image](https://user-images.githubusercontent.com/98667419/199794881-4ea75cff-0942-4646-8fb0-74cdaedfb2c6.png)
 
 Luego unimos el cable Coaxial7 al Ethernet6
+
 ![image](https://user-images.githubusercontent.com/98667419/199794942-0c99d432-096f-4d39-93b0-d661d98f2ef0.png)
 
 4. En el router ISP, configuramos la IP respectiva, al igual que usamos unos comandos en el CLI para configurar el DHCP
 
 IP Configurada
+
 ![image](https://user-images.githubusercontent.com/98667419/199795476-9be0c0cb-0d81-43cc-8450-8aa495b76a1e.png)
 
 Comandos CLI en Router
+
 ![image](https://user-images.githubusercontent.com/98667419/199796485-16fec163-47a1-49f9-9ac6-94bf5bdb6868.png)
 
 5)
@@ -122,6 +130,13 @@ Resultados
 - configuración.
   
 - verificación.
+ Si entramos a la página web desde cualquier dispositivo de la casa inteligente que lo permita (PC de mesa, portátil o smartphone) podremos acceder sin problema a ella.
+ 
+ ![image](https://user-images.githubusercontent.com/98667419/199802311-f92f66cf-6aad-4d64-9536-ed3ff4f17434.png)
+ 
+ También podemos notar que podemos controlar las acciones de las IoT desde cualquier dispositivo conectado al Home Gateway a través del IoT Monitor, como se puede evidenciar a continuación.
+ 
+ ![image](https://user-images.githubusercontent.com/98667419/199803841-4d17c87f-12e4-4242-a028-fcd63206cf63.png)
 
 3)
 Sección de Resultados y Análisis
@@ -129,11 +144,15 @@ Sección de Resultados y Análisis
 4)
 Concluciones, 
 
-recomendaciones.
-para la parte de oficinas se recomienda tener presente las direcciones DHCP como prioridad, para lograr la conectividad por wireless y lograr el ping con el WLC para crear la red WLAN.
+Recomendaciones:
+Para la parte de oficinas se recomienda tener presente las direcciones DHCP como prioridad, para lograr la conectividad por wireless y lograr el ping con el WLC para crear la red WLAN.
+
+Para la parte de Mi Casa Inteligente se recomienda tener muy en cuenta el protocolo DHCP que se tiene que configurar dentro del router, ya que esto es lo que permite que se pueda acceder adecuadamente a los servidores.
+
+Para 
 ____________________________
 
 Referencias.
 
-https://youtu.be/AawECCXioFI.
-
+https://youtu.be/AawECCXioFI
+https://youtu.be/9R5vJt8zs90
