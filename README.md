@@ -9,6 +9,10 @@ ______________________________
 1)
 sintesia
 - montaje
+
+(Oficina)
+- Se 
+
 - configuración
 - verificación
 
