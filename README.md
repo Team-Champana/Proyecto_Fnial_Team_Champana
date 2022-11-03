@@ -91,7 +91,33 @@ La configuración se realizó del siguiente modo.
 
 1. Se configura el Home Gateway con la IP que se nos provee para ello en la Tabla 2 del documento del Proyecto Final
 
-2)
+![image](https://user-images.githubusercontent.com/98667419/199792538-ae20bdf7-728b-408b-92e5-3c124eee0e84.png)
+
+2. Configuramos todos los dispositivos que deben de estar conectados al Home Gateway, esto teniendo en cuenta que su protocolo Gateway/DNS va a ser con DHCP.
+
+Indicamos su SSID como HomeGateway
+![image](https://user-images.githubusercontent.com/98667419/199793439-7bc9f798-6298-4aa7-a93d-2247ff475077.png)
+
+Usamos protocolo DHCP
+![image](https://user-images.githubusercontent.com/98667419/199793506-3ecff07a-8df0-4340-9674-d38e44e3642d.png)
+
+3. Realizamos una configuración en el cableado del Cloud-PT
+
+El Ethernet lo configuramos como Cable
+![image](https://user-images.githubusercontent.com/98667419/199794881-4ea75cff-0942-4646-8fb0-74cdaedfb2c6.png)
+
+Luego unimos el cable Coaxial7 al Ethernet6
+![image](https://user-images.githubusercontent.com/98667419/199794942-0c99d432-096f-4d39-93b0-d661d98f2ef0.png)
+
+4. En el router ISP, configuramos la IP respectiva, al igual que usamos unos comandos en el CLI para configurar el DHCP
+
+IP Configurada
+![image](https://user-images.githubusercontent.com/98667419/199795476-9be0c0cb-0d81-43cc-8450-8aa495b76a1e.png)
+
+Comandos CLI en Router
+![image](https://user-images.githubusercontent.com/98667419/199796485-16fec163-47a1-49f9-9ac6-94bf5bdb6868.png)
+
+5)
 Resultados
 - configuración.
   
